@@ -7,7 +7,7 @@ const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("sks-bot");
 const {
   Module,
   commands
@@ -31,7 +31,7 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://github.com/syam2k6/raganork'
     }
 }, {
   urlButton: {
@@ -62,7 +62,6 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
 ┃✩│ Ram: 1024 MB
-┃✩│ Disk Space: 620 GB
 ┃✩│ Version: ${config.VERSION}
 ┃✩│
 ┃✩│
